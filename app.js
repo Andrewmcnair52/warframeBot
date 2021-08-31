@@ -5,11 +5,6 @@ const fs = require("fs");
 const config = require("./data/config.json");
 const update = require('./scripts/update.js');
 
-
-
-//discord setup
-const client = new Discord.Client();
-
 //info page
 global.infoChannelID = config.channelID;
 global.infoMessages = new Array(3);
